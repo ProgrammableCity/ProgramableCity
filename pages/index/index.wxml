@@ -1,1 +1,29 @@
-
+<!-- 顶部导航栏 -->
+<view class='slide-topbar'>
+  <view class='news-type'>国内</view>
+  <view class='news-type'>国际</view>
+  <view class='news-type'>财经</view>
+  <view class='news-type'>娱乐</view>
+  <view class='news-type'>军事</view>
+  <view class='news-type'>体育</view>
+  <view class='news-type'>其它</view>
+</view>
+<!-- 头条 -->
+<view class='headline-wrapper'>
+  <view class='headline-text'>Headline Text</view>
+  <image src='../../images/test.jpg'></image>
+  <view class='headline-specifics'>
+    <view class='headline-source'>头条来源</view>
+    <view class='headline-time'>3分钟前</view>
+  </view>
+</view>
+<!-- 其它新闻 -->
+<view class='news-wrapper'>
+  <view class='news-content'>
+    <view>新闻标题</view>
+    <view class='news-specifics'>
+      <view class='news-source'>新闻来源</view>
+      <view class='news-time'>5分钟前</view>
+    </view>
+  </view>
+</view>

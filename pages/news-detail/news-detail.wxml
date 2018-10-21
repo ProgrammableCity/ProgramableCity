@@ -1,2 +1,15 @@
-<!--pages/news-detail/news-detail.wxml-->
-<text>pages/news-detail/news-detail.wxml</text>
+<!--新闻正文标题-->
+<view class='news-title'>美国总统特朗普宣布对华贸易战告一段落，将与中方磋商新的贸易格局</view>
+<!--新闻信息-->
+<view class='news-specs-wrapper'>
+  <view class='news-source'>新华日报</view>
+  <view class='news-time'>10:03</view>
+  <view class='read-count'>阅读 10423</view>
+</view>
+<!--新闻正文部分-->
+<view class='news-content'>
+<image class='news-head-image' src='../../images/test.jpg'></image>
+<text class='news-text'>{{ teststring }}</text>
+</view>
+<!--尾部-->
+<view class='news-tail'>尾部文字，待定</view>
