@@ -1,3 +1,18 @@
-.test {
-  line-height: 42rpx;
+.news-type-list {
+  display: flex;
+  height: 100rpx;
+}
+
+.news-type-item {
+  display: flex;
+  flex-shrink: 0;
+  font-size: 32rpx;
+  color: white;
+  width: 120rpx;
+  background-color: grey;
+  padding-top: 40rpx;
+}
+
+.test-image {
+  width: 750rpx;
 }

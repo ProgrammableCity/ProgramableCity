@@ -1,17 +1,21 @@
 <!-- 顶部导航栏 -->
-<view class='slide-topbar'>
-  <view class='news-type'>国内</view>
-  <view class='news-type'>国际</view>
-  <view class='news-type'>财经</view>
-  <view class='news-type'>娱乐</view>
-  <view class='news-type'>军事</view>
-  <view class='news-type'>体育</view>
-  <view class='news-type'>其它</view>
-</view>
+<scroll-view scroll-x>
+  <view class='news-type-list'>
+    <view class='news-type-item'>国内1</view>
+    <view class='news-type-item'>国内2</view>
+    <view class='news-type-item'>国内3</view>
+    <view class='news-type-item'>国内4</view>
+    <view class='news-type-item'>国内5</view>
+    <view class='news-type-item'>国内6</view>
+    <view class='news-type-item'>国内7</view>
+    <view class='news-type-item'>国内8</view>
+    <view class='news-type-item'>国内9</view>
+  </view>
+</scroll-view>
 <!-- 头条 -->
 <view class='headline-wrapper'>
   <view class='headline-text'>Headline Text</view>
-  <image src='../../images/test.jpg'></image>
+  <image class='test-image' src='../../images/test.jpg'></image>
   <view class='headline-specifics'>
     <view class='headline-source'>头条来源</view>
     <view class='headline-time'>3分钟前</view>
