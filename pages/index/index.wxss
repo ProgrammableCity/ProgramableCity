@@ -7,12 +7,42 @@
   display: flex;
   flex-shrink: 0;
   font-size: 32rpx;
-  color: white;
+  color: whitesmoke;
   width: 120rpx;
   background-color: grey;
   padding-top: 40rpx;
 }
 
+.news-type-item#first {
+  color: red;
+}
+
 .test-image {
-  width: 750rpx;
+  width: 650rpx;
+  height: 650rpx;
+  z-index: -1;
+}
+
+.headline-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.image-wrapper {
+  align-items: center;
+  position: relative;
+}
+
+.headline-specifics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headline-text {
+  position: absolute;
+  bottom: 50rpx;
+  left: 25rpx;
 }

@@ -1,7 +1,7 @@
 <!-- 顶部导航栏 -->
 <scroll-view scroll-x>
   <view class='news-type-list'>
-    <view class='news-type-item'>国内1</view>
+    <view class='news-type-item' id='first'>国内1</view>
     <view class='news-type-item'>国内2</view>
     <view class='news-type-item'>国内3</view>
     <view class='news-type-item'>国内4</view>
@@ -15,7 +15,9 @@
 <!-- 头条 -->
 <view class='headline-wrapper'>
   <view class='headline-text'>Headline Text</view>
-  <image class='test-image' src='../../images/test.jpg'></image>
+  <view class='image-wrapper'>
+    <image class='test-image' src='../../images/logo.png'></image>
+  </view>
   <view class='headline-specifics'>
     <view class='headline-source'>头条来源</view>
     <view class='headline-time'>3分钟前</view>
